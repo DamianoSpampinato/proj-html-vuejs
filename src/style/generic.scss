@@ -4,18 +4,17 @@
     margin:0;
     box-sizing: border-box;
 }
-a{
-    text-decoration: none;
-    
+img{
+    width: 100%;
+}
+.ms-container-md{
+    width: 1200px;
+    margin: 0 auto;
 }
 li{
     list-style: none;
 }
-.container{
-    width: 1200px;
-    margin: 0 auto;
-}
-body{
-    font-family: "Kanit", sans-serif;
-    
+a{
+    text-decoration: none;
+    color: inherit;
 }
