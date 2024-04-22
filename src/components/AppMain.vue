@@ -1,0 +1,18 @@
+<script >
+import AppHero from './components/AppHero.vue'
+export default{
+    name: AppMain
+  components:{
+    AppHero
+    
+  }
+}
+</script>
+
+<template>
+ <AppHero></AppHero>
+</template>
+
+<style lang="scss" scoped>
+
+</style>
