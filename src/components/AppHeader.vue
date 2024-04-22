@@ -30,7 +30,7 @@ export default{
                 </nav>
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-solid fa-cart-shopping"></i>
-                <button class="py-2 px-1 rounded-1">Get Started</button>
+                <button class="rounded-1">Get Started</button>
                 
             </div>
         </div>
@@ -40,7 +40,7 @@ export default{
 </template>
 
 <style lang="scss" scoped>
-@use '../style/generic';
+
 @use '../style/partials/variables' as *;
 .img-container{
     width: 50px;
@@ -49,11 +49,7 @@ header{
     padding-bottom: 10px;
     padding-top: 5px;
     
-    button{
-        background-color: $blue;
-        border: none;
-        color: $white;
-    }
+
     li{
         color: $black;
     }
