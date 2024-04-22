@@ -24,4 +24,7 @@ button{
     border: none;
     color: $white;
     padding: 8px 4px;
+    &:hover{
+        background-color: $black;
+    }
 }
