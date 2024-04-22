@@ -1,7 +1,7 @@
 <script >
-import AppHero from './components/AppHero.vue'
+import AppHero from './AppHero.vue'
 export default{
-    name: AppMain
+    name: 'AppMain',
   components:{
     AppHero
     
