@@ -1,6 +1,17 @@
 <script>
+import{store} from '../store.js';
+import LinkNav from './LinkNav.vue';
 export default{
-    name: 'AppHeader'
+    name: 'AppHeader',
+    components:{
+        LinkNav
+    },
+    data(){
+        return{
+            store
+        }
+    }
+
 }
 </script>
 
@@ -15,11 +26,7 @@ export default{
             </div>
             <div class="col-6 flex-nowrap align-items-center d-flex justify-content-end gap-3">
                 <nav class="d-flex align-items-center">
-                    <li class="py-2 px-1 active"><a href="#">HOME</a></li>
-                    <li class="py-2 px-1"><a href="#">LINK</a></li>
-                    <li class="py-2 px-1"><a href="#">LINK</a></li>
-                    <li class="py-2 px-1"><a href="#">LINK</a></li>
-                    <li class="py-2 px-1"><a href="#">LINK</a></li>
+                   <LinkNav v-for="link in store.navLinks" :link="link"></LinkNav>
                 </nav>
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-solid fa-cart-shopping"></i>
