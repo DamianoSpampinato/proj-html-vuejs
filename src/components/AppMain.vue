@@ -1,9 +1,11 @@
 <script >
 import AppHero from './AppHero.vue'
+import AppOnlinemarketing from './AppOnlinemarketing.vue';
 export default{
     name: 'AppMain',
   components:{
-    AppHero
+    AppHero,
+    AppOnlinemarketing
     
   }
 }
@@ -11,6 +13,7 @@ export default{
 
 <template>
  <AppHero></AppHero>
+ <AppOnlinemarketing></AppOnlinemarketing>
 </template>
 
 <style lang="scss" scoped>
