@@ -41,9 +41,9 @@ export default{
                                 <div class="hover-border"></div>
                             </div>
                         </div>
-                        <h5>Customized Invoices</h5>
+                        <h5>Stock Management</h5>
                         <div class="img-container mt-4">
-                            <img src="../assets/img/graphic1.png" alt="">
+                            <img class="filter-red" src="../assets/img/Paperplane.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -54,9 +54,9 @@ export default{
                                 <div class="hover-border"></div>
                             </div>
                         </div>
-                        <h5>Customized Invoices</h5>
+                        <h5>Receivable & Payables</h5>
                         <div class="img-container mt-4">
-                            <img src="../assets/img/graphic1.png" alt="">
+                            <img class="filter-green" src="../assets/img/education.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -67,9 +67,9 @@ export default{
                                 <div class="hover-border"></div>
                             </div>
                         </div>
-                        <h5>Customized Invoices</h5>
+                        <h5>Manage Buying</h5>
                         <div class="img-container mt-4">
-                            <img src="../assets/img/graphic1.png" alt="">
+                            <img class="filter-blue" src="../assets/img/thumb-up.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -80,9 +80,9 @@ export default{
                                 <div class="hover-border"></div>
                             </div>
                         </div>
-                        <h5>Customized Invoices</h5>
+                        <h5>Powerful & Secure</h5>
                         <div class="img-container mt-4">
-                            <img src="../assets/img/graphic1.png" alt="">
+                            <img class="filter-red" src="../assets/img/connection.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -93,9 +93,9 @@ export default{
                                 <div class="hover-border"></div>
                             </div>
                         </div>
-                        <h5>Customized Invoices</h5>
+                        <h5>Fastest Return Filing</h5>
                         <div class="img-container mt-4">
-                            <img src="../assets/img/graphic1.png" alt="">
+                            <img class="filter-green" src="../assets/img/education.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -106,9 +106,9 @@ export default{
                                 <div class="hover-border"></div>
                             </div>
                         </div>
-                        <h5>Customized Invoices</h5>
+                        <h5>Monthly Detailed</h5>
                         <div class="img-container mt-4">
-                            <img src="../assets/img/graphic1.png" alt="">
+                            <img class="filter-blue" src="../assets/img/business.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -119,9 +119,9 @@ export default{
                                 <div class="hover-border"></div>
                             </div>
                         </div>
-                        <h5>Customized Invoices</h5>
+                        <h5>Product Management</h5>
                         <div class="img-container mt-4">
-                            <img src="../assets/img/graphic1.png" alt="">
+                            <img class="filter-red" src="../assets/img/thumb-up.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -156,9 +156,10 @@ export default{
     }
 }
 .ms-card{
+    height: 100%;
     box-shadow: -3px 15px 29px 1px rgba(0,0,0,0.34);
     position: relative;
-    transition: 200ms ease-in;
+    transition: 200ms ease-in-out;
     &:hover{
         background-color:$green ;
         h5{
@@ -174,10 +175,19 @@ export default{
     
     .img-container{
         width: 40px;
+        img{
+            min-height: 45px;
+        }
         
     }
     .filter-blue{
         filter: brightness(0) saturate(100%) invert(46%) sepia(51%) saturate(4982%) hue-rotate(207deg) brightness(101%) contrast(101%);
+    }
+    .filter-red{
+        filter: brightness(0) saturate(100%) invert(67%) sepia(22%) saturate(4419%) hue-rotate(316deg) brightness(102%) contrast(95%);;
+    }
+    .filter-green{
+        filter: brightness(0) saturate(100%) invert(82%) sepia(35%) saturate(513%) hue-rotate(110deg) brightness(92%) contrast(87%);
     }
 }
 </style>
