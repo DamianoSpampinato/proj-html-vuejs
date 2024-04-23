@@ -24,6 +24,7 @@ button{
     border: none;
     color: $white;
     padding: 8px 4px;
+    transition: 200ms ease-in-out;
     &:hover{
         background-color: $black;
     }
