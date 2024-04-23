@@ -132,6 +132,13 @@ export default{
 
 <style lang="scss" scoped>
 @use '../style/partials/variables'as*;
+#popular-features{
+    background-image: url('../../src/assets/img/14.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:-20%;
+    
+}
 .estetic-element{
     opacity: 0;
     position: absolute;
