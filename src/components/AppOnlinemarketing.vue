@@ -44,7 +44,7 @@ export default{
         padding: 0;
         li{
             margin: 0.5rem auto;
-            color:$dark-gray
+            color:$dark-grey
 
         }
         .fa-solid{

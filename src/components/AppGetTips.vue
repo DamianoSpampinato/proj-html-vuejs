@@ -54,7 +54,7 @@ export default{
     }
     p{
         line-height: 1.8rem;
-        color:$dark-gray;
+        color:$dark-grey;
     }
 }
 </style>
