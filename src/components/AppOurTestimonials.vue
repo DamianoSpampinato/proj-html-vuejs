@@ -66,7 +66,10 @@ export default{
 <style scoped lang="scss">
 @use '../style/partials/variables'as*;
 #our-testimonials{
-    background-image: url('../assets/img/15.png');
+    background-image:  url('../assets/img/15.png'),
+                linear-gradient(
+                    $tran-blue,
+                    $white);
     background-color: $white-blue;
     background-repeat: no-repeat;
 }
@@ -120,9 +123,10 @@ export default{
 }
 .user{
     color: $grey-black;
-    
+    font-weight: bold;
     .role{
         color: $dark-grey;
+        font-weight: 300;
     }
 }
 .active{
