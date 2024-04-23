@@ -4,6 +4,7 @@ import AppHero from './AppHero.vue'
 import AppOnlinemarketing from './AppOnlinemarketing.vue';
 import AppPopularFeatures from './AppPopularFeatures.vue';
 import AppOutTestimonials from './AppOurTestimonials.vue'
+import AppLatestPost from './AppLatestPost.vue';
 export default{
     name: 'AppMain',
   components:{
@@ -12,6 +13,7 @@ export default{
     AppGetTips,
     AppPopularFeatures,
     AppOutTestimonials,
+    AppLatestPost
     
   }
 }
@@ -23,6 +25,7 @@ export default{
  <AppGetTips></AppGetTips>
  <AppPopularFeatures></AppPopularFeatures>
  <AppOutTestimonials></AppOutTestimonials>
+ <AppLatestPost></AppLatestPost>
 </template>
 
 <style lang="scss" scoped>
