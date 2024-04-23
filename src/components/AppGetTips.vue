@@ -9,7 +9,7 @@ export default{
         <div class="ms-container-md">
             <div class="row">
                 <div class="col-6">
-                    <h3>Get tip tricks on how to skyrocket your sakes.</h3>
+                    <h1>Get tip tricks on how to skyrocket your sakes.</h1>
                     <p class="mt-4">Faff about only a quid blower i don't want no agro bleeding chiminey pot burke tosser cras nice one boot fanny!</p>
                     <div class="ms-card d-flex align-items-center p-3 gap-3 active mt-5">
                         <div class="img-container">
