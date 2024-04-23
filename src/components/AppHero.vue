@@ -17,7 +17,7 @@ export default{
                         <button class="rounded-1 flex-shrink-0">Read more</button>
                     </div>
                 </div>
-                <div class="col-6 position-relative d-flex justify-content-end"><img src="../assets/img/508.jpeg" alt=""></div>
+                <div class="col-6 position-relative d-flex justify-content-end"><img src="../assets/img/27-1.png" alt=""></div>
             </div>
         </div>
     </section>
@@ -27,12 +27,12 @@ export default{
 @use '../style/partials/variables'as*;
 img{
     position: absolute;
-    top: 0
+    top: -25px
 }
 .container{
     background-color: $tran-blue;
     img{
-        width: 80%;
+        width: 90%;
     }
 }
 
