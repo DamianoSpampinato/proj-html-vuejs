@@ -23,7 +23,7 @@ export default{
                             <img  src="../assets/img/26.jpeg" alt="">
                         </div>
                         <div class="user text-center mt-2 mb-3" >
-                            Julia Ann <span class="role" >COO Softbox</span>
+                            Julia Ann <span class="role" > - COO Softbox</span>
                         </div>
                         <div class="text mt-5">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex inventore ut, magnam fugiat error, similique nobis maxime, harum tempore assumenda? Quod ratione architecto, placeat error sequi nam maxime ex?</p>
@@ -45,7 +45,7 @@ export default{
                             <img  src="../assets/img/27.jpeg" alt="">
                         </div>
                         <div class="user text-center mt-2 mb-3" >
-                            Mac Znder <span class="role" >COO Softbox</span>
+                            Mac Znder <span class="role" > - Manager Softbox</span>
                         </div>
                         <div class="text mt-5">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex inventore ut, magnam fugiat error, similique nobis maxime, harum tempore assumenda? Quod ratione architecto, placeat error sequi nam maxime ex?</p>
@@ -83,7 +83,7 @@ export default{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 50%;
+    opacity: 40%;
 }
 .line-wrapper{
     box-shadow: 0px 14px 50px -2px rgba(0,0,0,0.6);
@@ -126,7 +126,7 @@ export default{
     font-weight: bold;
     .role{
         color: $dark-grey;
-        font-weight: 300;
+        font-weight: 400;
     }
 }
 .active{

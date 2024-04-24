@@ -94,7 +94,10 @@ export default{
                             <div class="col-12 my-3">
                                 <textarea class="p-2" name="" id=""  placeholder="Your Message" rows="5"></textarea>
                             </div>
-                        
+                            <div>
+
+                                <button class="px-3 rounded-1">Send Message</button>
+                            </div>
                     </div>
                 </form>
             </div>

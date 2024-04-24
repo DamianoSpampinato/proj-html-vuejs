@@ -167,6 +167,9 @@ export default{
     box-shadow: -3px 15px 29px 1px rgba(0,0,0,0.34);
     position: relative;
     transition: 200ms ease-in-out;
+    h5{
+        font-weight: bold;
+    }
     &:hover{
         background-color:$green ;
         h5{

@@ -19,15 +19,17 @@ export default{
 <header>
     <div class="ms-container-md">
         <div class="row justify-content-between">
-            <div class="col-2">
+            <div class="col-1">
                 <div class="img-container">
                     <img src="../assets/img/logo-2.png" alt="">
                 </div>
             </div>
-            <div class="col-6 flex-nowrap align-items-center d-flex justify-content-end gap-3">
-                <nav class="d-flex align-items-center">
+            <div class="col-5 offset-lg-4 flex-nowrap align-items-center d-flex justify-content-end gap-3">
+                <nav class="d-flex align-items-center gap-3 w-100">
                    <LinkNav v-for="link in store.navLinks" :link="link"></LinkNav>
                 </nav>
+            </div>
+            <div class="col-2 flex-nowrap align-items-center d-flex justify-content-end gap-3">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-solid fa-cart-shopping"></i>
                 <button class="rounded-1">Get Started</button>
