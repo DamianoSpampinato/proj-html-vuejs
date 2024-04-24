@@ -122,6 +122,9 @@ export default{
 <style lang="scss" scoped>
 @use './src/style/partials/variables'as*;
 footer{
+    
+    margin-top: 90px;
+
     .col-3{
         p{
             line-height: 1.8rem;
@@ -136,7 +139,7 @@ footer{
     .color-grey{
         color:$dark-grey
     }
-    border-top: 2px solid $dark-grey;
+    border-top: 1px solid grey;
     .img-container{
         width: 150px;
     }
