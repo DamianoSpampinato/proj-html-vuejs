@@ -54,6 +54,11 @@ export default{
                             <img class="icon-red-pointer" src="../assets/img/entity11.png" alt="">
                         </div>
                     </div>
+                    <div class="info">
+                        <span>Dati mappa 2020</span>
+                        <span>Termini e condizioni d'uso</span>
+                        <span>Segnala un errore nella mappa</span>
+                    </div>
                 </div>
             </div>
             <div class="col-6">
@@ -150,6 +155,8 @@ position: relative;
     width: 30px;
     height: 30px;
    overflow: hidden;
+   cursor: pointer;
+
     img{
         width: 90px;
     }
@@ -168,6 +175,8 @@ position: relative;
     position: absolute;
     bottom: 20px;
     right: 15px;
+    cursor: pointer;
+
     .btn{
         color: grey;
         width: 100%;
@@ -185,6 +194,8 @@ position: relative;
     position: absolute;
     left: 15px;
     bottom: 15px;
+    cursor: pointer;
+
     
         img{
             height: 59px;
@@ -201,6 +212,18 @@ position: relative;
 .icon-red-pointer{
     object-fit: cover;
     object-position: -30px -85px;
+    cursor: pointer;
    
+}
+.info{
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    span{
+        background-color: lightgrey;
+        margin: 0 2px;
+        cursor: pointer;
+    }
 }
 </style>
