@@ -10,7 +10,51 @@ export default{
     <p class="text-center">If you are planning on developing a product landing</p>
     <div class="ms-container-md">
         <div class="row">
-            <div class="col-6 bg-primary">
+            <div class="col-6">
+                <div class="map">
+                    <img src="../assets/img/StaticMapService.GetMapIma.png" alt="">
+                    <div class="indications-wrapper px-3 p-2">
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="indications">
+                                    <div>
+                                        <strong>Storey Ave</strong>
+                                    </div>
+                                    <div>
+                                        <small>San Francisco, California 94129</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+    
+                                <div class="icon">
+                                    <img class="icon-1" src="../assets/img/entity11.png" alt="">
+                                </div>
+                                <div class="text-small">indicazi</div>
+                            </div>
+                        </div>
+                            <div class="map-bigger mt-3">Visualizza mappa più grande</div>
+                    </div>
+                    <!-- zoom button -->
+                    <div class="zoom">
+                        <div class="btn d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="btn d-flex justify-content-center align-items-center border-top">
+                            <i class="fa-solid fa-minus"></i>
+                        </div>
+                    </div>
+                    <!-- satellite image -->
+                    <div class="satellite">
+                        <img src="../assets/img/satellite.jpg" alt="">
+                    </div>
+                    <!-- RED POINTER -->
+                    <div class="red-pointer">
+                        <div class="icon">
+                            <img class="icon-red-pointer" src="../assets/img/entity11.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-6">
                 <div class="img-container mb-5">
@@ -77,5 +121,86 @@ export default{
         width :100%;
 
     }
+}
+.map{
+position: relative;
+    .indications-wrapper{
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        background-color: $white;
+        .map-bigger{
+            color: $blue;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    }
+    .col-3{
+        overflow: hidden;
+
+    }
+    .text-small{
+        font-size: 14px;
+        color: $blue;
+        font-weight: 500;
+    }
+}
+.icon{
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+   overflow: hidden;
+    img{
+        width: 90px;
+    }
+    .icon-1{
+        
+        object-fit: contain;
+
+    }
+
+
+}
+.zoom{
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    .btn{
+        color: grey;
+        width: 100%;
+        height: 50%;
+        border: none;
+       
+    }
+}
+.satellite{
+    width: 70px;
+    height: 70px;
+    overflow:hidden;
+    padding: 5px;
+    background-color: white;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    
+        img{
+            height: 59px;
+            
+        }
+    
+}
+.red-pointer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.icon-red-pointer{
+    object-fit: cover;
+    object-position: -30px -85px;
+   
 }
 </style>
